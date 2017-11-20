@@ -3,7 +3,7 @@ en = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
 fr = ['un','deux','trois','quatre','cinq','six','sept','huit','neuf']
 
 hash = {}
-inside_hash = {}
+
 
 digits.each do |x|
   hash[x] = {french: fr[x.to_i-1], english: en[x.to_i-1]}
